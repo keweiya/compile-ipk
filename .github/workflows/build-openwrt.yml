@@ -29,7 +29,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y build-essential ccache ecj fastjar file g++ gawk \
         gettext git java-propose-classpath libelf-dev libncurses-dev \
-        libssl-dev python3 python3-setuptools \
+        libssl-dev python3 python3-pyelftools python3-setuptools \
         unzip wget rsync subversion swig time xsltproc zlib1g-dev tree zstd
 
     - name: 设置 Python 软链接
